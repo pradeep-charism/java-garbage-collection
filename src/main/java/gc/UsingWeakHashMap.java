@@ -18,21 +18,3 @@ public class UsingWeakHashMap {
     }
 }
 
-class Person {
-
-}
-
-class PersonMetada {
-    Date date;
-
-    public PersonMetada() {
-        this.date = new java.util.Date();
-    }
-
-    @Override
-    public String toString() {
-        return "PersonMetada{" +
-                "date=" + date +
-                '}';
-    }
-}
